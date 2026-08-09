@@ -1,0 +1,12 @@
+ h1{
+            color:brown;
+            background-color: aqua;
+        }
+p{
+    color: greenyellow;
+    background-color: burlywood;
+}
+button{
+    color: rgb(255, 0, 0);
+    background-color: darkgray;
+}
