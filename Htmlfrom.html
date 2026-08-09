@@ -23,6 +23,44 @@
           <input type="checkbox" id="age" name="age">
           <label for="age">I am 18+</label>
        </div>
+       <!------Radio------>
+       <div>
+           <input type="radio" name="fruit" id="apple" value="Apple">
+           <label for="apple">apple</label>
+           <input type="radio" name="fruit" id="mango" value="mango">
+           <label for="mango">mango</label>
+           <input type="radio" name="fruit" id="orange" value="Orange">
+           <label for="orange">orange</label>
+       </div>
+       <br>
+       <!-----Checkbox -->
+       <div>
+         Choose your Subjects:-<br>
+          <input type="checkbox" id="Math" name="Subject">
+          <label for="Math">Math</label>
+          <input type="checkbox" id="Physics" name="Subject">
+          <label for="Physics">Physics</label>
+          <input type="checkbox" id="Chemistry" name="Subject">
+          <label for="Chemistry">Chemistry</label>
+       </div>
+       <br>
+       <!------Select box(Dropdown)-->
+       <div>
+        Choose your Profession :-<br>
+        <select name="Profession" id="Profession">
+            <option>Select your option</option><br>
+            <option value="Student">Student</option>
+            <option value="Developer">Developer</option>
+        </select>
+       </div>
+       <!------Range box-->
+       <label for="vol">Select Your Volume level :-</label><br>
+       <input type="range" id="vol" min="0" max="100" name="vol" step="5">
+       <br>
+       <div>
+        <label for="feedback">Give your Feedback</label><br>
+        <textarea id="feedback" rows="3" column="5"></textarea>
+       </div>
       <button>Submit</button>
       <button type="reset">Reset</button>
     </form>
@@ -48,8 +86,10 @@
       <!-----  <label for="Search">Search in Google :- </label>-->
         <input type="text" placeholder="Search in Google" name="q">
       </div>
+
       <button>Search</button>
       </form>
+    
 
 </body>
-</html>
+</html> 
